@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+@import "tailwindcss";
+
+body, html {
+  font-family: "Alexandria", sans-serif;
+}
+
+/* Hide scrollbars on elements using .no-scrollbar while preserving scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
